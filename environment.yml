@@ -1,0 +1,9 @@
+name: sandbox-2022
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - python
+  - snakemake
