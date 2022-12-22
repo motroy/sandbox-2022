@@ -7,3 +7,9 @@ channels:
 dependencies:
   - python
   - snakemake
+  - biopython
+  - pandas
+  - pysam
+  - r-base
+  - matplotlib
+  - seaborn
