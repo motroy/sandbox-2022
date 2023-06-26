@@ -6,4 +6,6 @@ tasks:
       pip install graphviz
       . /opt/conda/etc/profile.d/conda.sh
       conda activate base
-      #mamba install -y -q -c r r-base pyr2 ipython
+      mamba install -y -q -c r r-base pyr2
+      mamba install -y -q -c bioconda biopython pysam 
+      mamba install -y -q ipython pandas matplotlib seaborn
