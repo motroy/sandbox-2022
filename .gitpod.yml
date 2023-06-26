@@ -1,0 +1,9 @@
+image: nfcore/gitpod:latest
+
+tasks:
+  - name: Initialize
+    init: |
+      pip install graphviz
+      . /opt/conda/etc/profile.d/conda.sh
+      conda activate base
+      #mamba install -y -q -c r r-base pyr2 ipython
